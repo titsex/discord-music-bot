@@ -5,7 +5,7 @@
   "author": "titsex",
   "license": "MIT",
   "scripts": {
-    "build": "tsc --project ../telegram-music-bot/tsconfig.json && tsc-alias -p tsconfig.json",
+    "build": "tsc --project ./tsconfig.json && tsc-alias -p tsconfig.json",
     "dev": "ts-node-dev -r tsconfig-paths/register ./src/index.ts"
   },
   "devDependencies": {
