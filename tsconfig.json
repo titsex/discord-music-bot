@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "importHelpers": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "build",
+    "incremental": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@class/*": ["classes/*"],
+      "@filter/*": ["filters/*.filter"],
+      "@handler/*": ["handlers/*.handler"],
+      "@command/*": ["commands/*.command"],
+      "@module/*": ["modules/*.module"],
+      "@utils/*": ["utils/*"],
+      "@utils": ["utils"],
+      "@types": ["types"],
+      "@index": ["index"]
+    }
+  },
+  "include": ["./src/**/*"]
+}
