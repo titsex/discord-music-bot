@@ -1,6 +1,6 @@
 {
-  "name": "discord-bot",
-  "description": "An exclusive discord bot for my personal server",
+  "name": "discord-music-bot",
+  "description": "A simple music discord bot.",
   "version": "1.0.0",
   "author": "titsex",
   "license": "MIT",
