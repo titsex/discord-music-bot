@@ -1,4 +1,4 @@
-import ResumeCommand from '@command/music/resume'
+import ResumeCommand from '@command/music/resume.command'
 
 import { ICommand } from '@types'
 

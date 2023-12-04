@@ -1,4 +1,4 @@
-import FilterCommand from '@command/music/filter'
+import FilterCommand from '@command/music/filter.command'
 
 import { ICommand } from '@types'
 

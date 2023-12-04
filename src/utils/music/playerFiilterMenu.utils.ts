@@ -1,5 +1,5 @@
 import { ActionRowBuilder, SelectMenuComponentOptionData, StringSelectMenuBuilder } from 'discord.js'
-import { filterList } from '@command/music/filter'
+import { filterList } from '@command/music/filter.command'
 import { PLAYER_CUSTOM_IDS } from '@types'
 import { Queue } from 'distube'
 

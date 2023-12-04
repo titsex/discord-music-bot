@@ -1,4 +1,4 @@
-import PlayCommand from '@command/music/play'
+import PlayCommand from '@command/music/play.command'
 
 import { TextChannel } from 'discord.js'
 import { ICommand } from '@types'

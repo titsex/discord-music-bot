@@ -1,9 +1,9 @@
-import StopModule from '@module/music/stop'
+import StopModule from '@module/music/stop.module'
 
 import { generatePlayer, getQueueSpeedFilterValue, extendInteraction } from '@utils'
 import { CustomClient, CustomInteraction, PLAYER_CUSTOM_IDS } from '@types'
 import { ButtonInteraction } from 'discord.js'
-import { genSpeedFilter } from '@filter/speed'
+import { genSpeedFilter } from '@filter/speed.filter'
 
 const isFilterCustomId = /toggle-(.+?)-filter/i
 

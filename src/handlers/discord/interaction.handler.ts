@@ -1,6 +1,6 @@
-import selectHandler from '@handler/discord/select'
-import buttonHandler from '@handler/discord/button'
-import PlayCommand from '@command/music/play'
+import selectHandler from '@handler/discord/select.handler'
+import buttonHandler from '@handler/discord/button.handler'
+import PlayCommand from '@command/music/play.command'
 
 import { CustomClient, CustomInteraction, ICommand } from '@types'
 import { extendInteraction, reGeneratePlayer } from '@utils'

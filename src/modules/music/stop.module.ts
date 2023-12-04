@@ -1,4 +1,4 @@
-import StopCommand from '@command/music/stop'
+import StopCommand from '@command/music/stop.command'
 
 import { ICommand } from '@types'
 import { messages } from '@index'

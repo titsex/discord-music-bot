@@ -1,4 +1,4 @@
-import RepeatCommand from '@command/music/repeat'
+import RepeatCommand from '@command/music/repeat.command'
 
 import { ICommand } from '@types'
 

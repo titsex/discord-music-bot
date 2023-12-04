@@ -1,4 +1,4 @@
-import SkipCommand from '@command/music/skip'
+import SkipCommand from '@command/music/skip.command'
 
 import { ICommand } from '@types'
 

@@ -1,7 +1,7 @@
-import SpeedCommand from '@command/music/speed'
+import SpeedCommand from '@command/music/speed.command'
 
 import { getQueueSpeedFilterValue } from '@utils'
-import { genSpeedFilter } from '@filter/speed'
+import { genSpeedFilter } from '@filter/speed.filter'
 import { ICommand } from '@types'
 
 const SpeedModule: ICommand = {

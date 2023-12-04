@@ -1,4 +1,4 @@
-import ShuffleCommand from '@command/music/shuffle'
+import ShuffleCommand from '@command/music/shuffle.command'
 
 import { ICommand } from '@types'
 

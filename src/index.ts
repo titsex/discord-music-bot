@@ -1,14 +1,14 @@
 import { config } from 'dotenv'
 config()
 
-import distubeErrorHandler from '@handler/music/error'
-import addQueueHandler from '@handler/music/addQueue'
-import finishHandler from '@handler/music/finish'
-import emptyHandler from '@handler/music/empty'
+import distubeErrorHandler from '@handler/music/error.handler'
+import addQueueHandler from '@handler/music/addQueue.handler'
+import finishHandler from '@handler/music/finish.handler'
+import emptyHandler from '@handler/music/empty.handler'
 
-import interactionHandler from '@handler/discord/interaction'
-import discordErrorHandler from '@handler/discord/error'
-import readyHandler from '@handler/discord/ready'
+import interactionHandler from '@handler/discord/interaction.handler'
+import discordErrorHandler from '@handler/discord/error.handler'
+import readyHandler from '@handler/discord/ready.handler'
 
 import DeezerPlugin from '@distube/deezer'
 

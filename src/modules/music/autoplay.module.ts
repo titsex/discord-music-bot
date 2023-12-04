@@ -1,4 +1,4 @@
-import AutoplayCommand from '@command/music/autoplay'
+import AutoplayCommand from '@command/music/autoplay.command'
 
 import { ICommand } from '@types'
 

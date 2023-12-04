@@ -1,4 +1,4 @@
-import VolumeCommand from '@command/music/volume'
+import VolumeCommand from '@command/music/volume.command'
 
 import { ICommand } from '@types'
 

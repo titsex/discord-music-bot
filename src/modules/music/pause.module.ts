@@ -1,4 +1,4 @@
-import PauseCommand from '@command/music/pause'
+import PauseCommand from '@command/music/pause.command'
 
 import { ICommand } from '@types'
 
