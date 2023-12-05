@@ -28,8 +28,8 @@ export function generatePlayerEmbeds(queue: Queue) {
             inline: true,
         },
         {
-            name: 'Фильтры',
-            value: queue.filters.size === 0 ? 'отсутствуют' : queue.filters.names.join(', '),
+            name: 'Песен в очереди',
+            value: String(queue.songs.length - 1 || 'нет'), 
             inline: true,
         },
         {
