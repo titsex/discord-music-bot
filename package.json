@@ -5,11 +5,7 @@
   "author": "titsex",
   "license": "MIT",
   "scripts": {
-<<<<<<< HEAD
-    "build": "tsc --project ./tsconfig.json && tsc-alias --project ./tsconfig.json",
-=======
-    "build": "tsc --project ./tsconfig.json && tsc-alias -p tsconfig.json",
->>>>>>> 5b59aa45809eb2bbd4bcb4b81f129146a3565eca
+    "build": "tsc --project ./tsconfig.json && tsc-alias --project tsconfig.json",
     "dev": "ts-node-dev -r tsconfig-paths/register ./src/index.ts"
   },
   "devDependencies": {
